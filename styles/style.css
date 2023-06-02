@@ -1,0 +1,34 @@
+body {
+    background-color: #2a2a3c;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.header {
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #2a2a3c;
+}
+
+.header__list {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+
+.header__item {
+    cursor: pointer;
+}
+
+.header__link:hover {
+    opacity: .6;
+    color: #a4f408;
+
+}
+.header__link {
+    color: #fff ;
+    text-decoration: none;
+    transition: all 1s;
+}
